@@ -1,0 +1,9 @@
+.customInput::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.customInput:focus {
+  border: 1px solid rgb(255, 255, 255) !important;
+  outline: none !important;
+  box-shadow: none !important;
+}

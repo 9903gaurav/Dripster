@@ -14,7 +14,7 @@ app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "http://192.168.29.19:3000", // Replace with the allowed origin(s) http://192.168.29.19:3000 http://localhost:3000
+    origin: process.env.originURL,
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true, // Allow credentials (cookies, headers) to be sent with the request
     optionsSuccessStatus: 204, // Set the status code for preflight requests (HTTP OPTIONS)

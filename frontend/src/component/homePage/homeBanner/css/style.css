@@ -1,0 +1,14 @@
+.banner {
+  min-width: 98vw;
+  min-height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  margin-top: -140px;
+  margin-bottom: 50px;
+  background: url("../img/bannerImg.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}

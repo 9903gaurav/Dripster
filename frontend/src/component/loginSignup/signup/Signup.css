@@ -1,0 +1,15 @@
+input[type="email"]:focus {
+  border-color: rgb(255, 255, 255) !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+input[type="password"]:focus {
+  border-color: rgb(255, 255, 255) !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+input[type="text"]:focus {
+  border-color: rgb(255, 255, 255) !important;
+  box-shadow: none !important;
+  outline: none !important;
+}

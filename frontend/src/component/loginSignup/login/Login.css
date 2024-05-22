@@ -1,0 +1,19 @@
+input[type="email"]:focus {
+  border-color: rgb(255, 255, 255) !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+input[type="password"]:focus {
+  border-color: rgb(255, 255, 255) !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+#forgotPassword:active {
+  border: none;
+  box-shadow: none;
+  outline: none !important;
+}
+.btn-close:active{
+  border: none;
+  box-shadow: none;
+}
